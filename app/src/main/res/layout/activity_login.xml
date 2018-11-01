@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/nunito_sans_extralight"
+        android:text="Always stay updated with "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:fontFamily="@font/nunito_sans_extralight"
+        android:text="THE\nNEWS\nCHANNEL"
+        android:textSize="68sp" />
+
+
+    <Button
+        android:id="@+id/buttonLoginGoogle"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/card_main_bg"
+        android:drawableStart="@drawable/googleg_standard_color_18"
+        android:fontFamily="@font/nunito_sans_extralight"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:text="Login with Google"
+        android:textAllCaps="false"
+        android:textColor="#a1a1a1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/nunito_sans_extralight"
+        android:gravity="center"
+        android:text="We'll not send you any newsletters\n unless you need one." />
+
+    <ProgressBar
+        android:id="@+id/progreeBar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/buttonLoginGoogle"
+        android:layout_centerHorizontal="true"
+        android:elevation="20dp" />
+
+</RelativeLayout>

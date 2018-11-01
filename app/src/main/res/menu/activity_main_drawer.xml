@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Explore">
+        <menu>
+        <group android:checkableBehavior="none">
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="Home" />
+            <item
+                android:id="@+id/categories"
+                android:icon="@drawable/cat_carousel_black_24dp"
+                android:title="Categories" />
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Profile" />
+
+        </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_live_help_black_24dp"
+                android:title="Feedback" />
+        </menu>
+    </item>
+</menu>

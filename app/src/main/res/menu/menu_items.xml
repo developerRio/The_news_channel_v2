@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/business"
+        android:icon="@drawable/briefcase_grey"
+        android:title="Business" />
+    <item
+        android:id="@+id/media"
+        android:icon="@drawable/media_grey"
+        android:title="Media" />
+    <item
+        android:id="@+id/tech"
+        android:icon="@drawable/tech_grey"
+        android:title="Tech" />
+    <item
+        android:id="@+id/health"
+        android:icon="@drawable/health_grey"
+        android:title="Health" />
+    <item
+        android:id="@+id/sports"
+        android:icon="@drawable/sports_grey"
+        android:title="Sports" />
+</menu>

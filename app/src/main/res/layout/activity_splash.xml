@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".SplashActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/textLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/gifImage"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/nunito_sans_extralight"
+        android:shadowColor="#FFF"
+        android:shadowRadius="1.2"
+        android:text="THE \nNEWS \nCHANNEL"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "428745698741",
+    "firebase_url": "https://thenewschannel2-c0c99.firebaseio.com",
+    "project_id": "thenewschannel2-c0c99",
+    "storage_bucket": "thenewschannel2-c0c99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428745698741:android:0763769765763848",
+        "android_client_info": {
+          "package_name": "com.originalstocksllc.himanshuraj.thenewschannel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428745698741-l6adbnbondruca1rbntr1g31l8ibhcoq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.originalstocksllc.himanshuraj.thenewschannel",
+            "certificate_hash": "407d230f136067b88ec10f78779ce4f6e91b7c96"
+          }
+        },
+        {
+          "client_id": "428745698741-7q6ivpfrunggkqft71jbmp58vtvarqjm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD30ORHm-TxVNjkOhMOtePjKQe3LZz2e3o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428745698741-7q6ivpfrunggkqft71jbmp58vtvarqjm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

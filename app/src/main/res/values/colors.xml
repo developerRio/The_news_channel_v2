@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#dae4ea</color>
+    <color name="colorPrimaryDark">#8c8c8c</color>
+    <color name="colorAccent">#44cbf9</color>
+    <color name="hamburger">#464646</color>
+
+    <color name="highlighter">#e40000</color>
+    <color name="selector">#dc0000</color>
+    <color name="active">#44cbf9</color>
+</resources>

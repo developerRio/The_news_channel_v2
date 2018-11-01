@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">The News Channel</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="help">Feedback</string>
+    <string name="About">About</string>
+    <string name="aMessage">If you\'re facing any troubles in this app regarding any issue, mail to: developer.rio105@gmail.com</string>
+    <string name="negativeButton">Cancel</string>
+    <string name="positiveButton">Proceed</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="morning">Good Morning</string>
+    <string name="afternoon">Good noon</string>
+    <string name="evening">Good Evening</string>
+    <string name="night">Good night</string>
+
+    <string name="no_location_detected">
+        No location detected. Make sure location is enabled on the device.
+    </string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+</resources>
